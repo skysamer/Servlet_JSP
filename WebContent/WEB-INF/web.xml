@@ -70,6 +70,16 @@
   <location>/errorHandle</location>
   </error-page>
   
+  <servlet>
+  <servlet-name>front</servlet-name>
+  <servlet-class>com.edu.controller.FrontController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>front</servlet-name>
+  <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  
   
   <servlet>
   <servlet-name>servletConfigTest</servlet-name>  
